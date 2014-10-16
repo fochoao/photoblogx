@@ -1,0 +1,48 @@
+.back {
+	position: absolute;
+	top: 340px;
+	padding-top: 42px;
+	margin-left: -420px;
+	width: 40px;
+	height: 60px;
+	opacity: .4;
+	color: #FFFFFF;
+	background-color: #333333;
+	border-radius: 10px 0px 0px 10px;
+	-webkit-border-radius: 10px 0px 0px 10px;
+	-moz-border-radius: 10px 0px 0px 10px;
+	box-shadow: 0px 0px 20px #111111;
+	-moz-box-shadow: 0px 0px 20px #111111;
+	-webkit-box-shadow: 0px 0px 20px #111111;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(color=#111111,direction=245,strength=3), Alpha(Opacity = 40)";  
+	filter: progid:DXImageTransform.Microsoft.Shadow(color=#111111,direction=245,strength=3), Alpha(Opacity = 40);
+}
+
+.back:hover, .back a, .back a:hover {
+	color: aqua;
+}
+
+.forward {
+	position: absolute;
+	top: 340px;
+	padding-top: 42px;
+	margin-left: 380px;
+	width: 40px;
+	height: 60px;
+	opacity: .4;
+	filter: Alpha(Opacity = 40);
+	color: #FFFFFF;
+	background-color: #333333;
+	border-radius: 0px 10px 10px 0px;
+	-webkit-border-radius: 0px 10px 10px 0px;
+	-moz-border-radius: 0px 10px 10px 0px;
+	box-shadow: 0px 0px 20px #111111;
+	-moz-box-shadow: 0px 0px 20px #111111;
+	-webkit-box-shadow: 0px 0px 20px #111111;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(color=#111111,direction=125,strength=3), Alpha(Opacity = 40)";  
+	filter: progid:DXImageTransform.Microsoft.Shadow(color=#111111,direction=125,strength=3), Alpha(Opacity = 40);
+}
+
+.forward:hover, .forward a, .forward a:hover {
+	color: aqua;
+}
